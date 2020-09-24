@@ -8,10 +8,13 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script>
             $(document).ready(function() {
-    $.get('about.txt', function(data) {
-        $("p.about1").text(data);
-    }, 'text');
-});
+                $.ajax({
+                    url: "/doc/about.txt",
+                    dataType: "text",
+                    success: function(data) {
+                    $("p.about1").text(data);
+                }
+            });
         </script>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
