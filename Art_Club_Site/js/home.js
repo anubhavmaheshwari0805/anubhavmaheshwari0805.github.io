@@ -20,7 +20,7 @@ $(document).ready(function() {
         }
     });
     $.ajax({
-        url: "/doc/abou3.txt",
+        url: "/doc/about3.txt",
         dataType: "text",
         success: function(data) {
             $("p.about3").text(data);
