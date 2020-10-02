@@ -1,0 +1,27 @@
+{
+  "name": "anubhavmaheshwari0805.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anshumanpriyadarshi/anubhavmaheshwari0805.github.io.git"
+  },
+  "author": "Anshuman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anshumanpriyadarshi/anubhavmaheshwari0805.github.io/issues"
+  },
+  "homepage": "https://github.com/anshumanpriyadarshi/anubhavmaheshwari0805.github.io#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1"
+  }
+}
