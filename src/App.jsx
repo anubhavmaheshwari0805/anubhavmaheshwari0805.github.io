@@ -18,7 +18,12 @@ const router = createBrowserRouter([
     path: "/dashboard",
     element: <Home />,
     errorElement: <ErrorPage />,
-  }
+  },
+  {
+    path: "/anubhavmaheshwari0805.github.io",
+    element: <Home />,  //<Login />
+    errorElement: <ErrorPage />,
+  },
 ]);
 
 function App() {
